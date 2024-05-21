@@ -1,0 +1,165 @@
+/* Variables */
+@import url(./colores.css);
+:root {
+	--border-radius: 12px;
+    --border-radius-interno:20px;
+}
+
+/* Estilos Generales */
+* {
+	box-sizing: border-box;
+}
+
+/* Tarjeta */
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 290px;
+	height: 444px;
+	gap: 1rem;
+	border-radius: var(--border-radius);
+	background-color: white;
+	position: fixed;
+	top: 50vh;
+	right: 50vw;
+	transform: translate(+50%, -50%);
+    font-family: "Lato", sans-serif;
+}
+
+.nombre_pokemon {
+	font-size: 1.2rem;
+}
+
+/* Contenedor de Datos */
+.card__datos {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+/* Imagen */
+.card__imagen {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	background-color: var(--electrico-color);
+	border-radius: var(--border-radius) var(--border-radius) 50px 50px;
+	height: 230px;
+	position: relative;
+}
+
+#cerrar {
+	cursor: pointer;
+}
+
+.card__name__id {
+	width: 100%;
+	padding: 0.5rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.imagen {
+	width: 90%;
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.imagen img {
+	object-fit: contain;
+	width: 100%;
+}
+
+/* Detalles */
+.card__detalles {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	border-radius: var(--border-radius-interno);
+	padding: 1rem;
+}
+
+.numero__pokedex {
+	text-align: center;
+}
+
+/* Tipos */
+.tipos {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.tipo {
+	width: 40%;
+	border-radius: var(--border-radius-interno);
+	padding: 0.05rem;
+	text-align: center;
+	color: white;
+}
+
+/* Estadísticas */
+.estadistica {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.estadistica-peso-altura{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:0.2rem;
+    margin-bottom:0.2rem;
+    margin-inline:auto;
+    font-size:14px;
+}
+
+.estadistica__p {
+	width: 40px;
+	font-weight: 500;
+    font-size: 13px;
+}
+
+.estadistica__interno {
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+}
+
+/* Barra de Progreso */
+.barra__externa {
+	width: 100%;
+	background-color: rgba(128, 128, 128, 0.181);
+	border-radius: var(--border-radius-interno);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.barra__interna {
+	width: 50%;
+	background-color: var(--primary-color);
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	border-radius: var(--border-radius-interno);
+	padding: 2px 0;
+	padding-right: 0.5rem;
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+}

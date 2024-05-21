@@ -1,0 +1,77 @@
+@import url(./colores.css);
+
+.tipo-acero {
+    background-color: var(--color--acero);
+}
+
+.tipo-agua {
+    background-color: var(--color--agua);
+}
+
+.tipo-bicho {
+    background-color: var(--color--bicho);
+}
+
+.tipo-dragon {
+    background-color: var(--color--dragon);
+}
+
+.tipo-eléctrico {
+    background-color: var(--color--electrico);
+}
+
+.tipo-fantasma {
+    background-color: var(--color--fantasma);
+}
+
+.tipo-fuego {
+    background-color: var(--color--fuego);
+}
+
+.tipo-hada {
+    background-color: var(--color--hada);
+}
+
+.tipo-hielo {
+    background-color: var(--color--hielo);
+}
+
+.tipo-lucha {
+    background-color: var(--color--lucha);
+}
+
+.tipo-normal {
+    background-color: var(--color--normal);
+}
+
+.tipo-planta {
+    background-color: var(--color--planta);
+}
+
+.tipo-psíquico {
+    background-color: var(--color--psiquico);
+}
+
+.tipo-roca {
+    background-color: var(--color--roca);
+}
+
+.tipo-siniestro {
+    background-color: var(--color--siniestro);
+}
+
+.tipo-tierra {
+    background-color: var(--color--tierra);
+}
+
+.tipo-veneno {
+    background-color: var(--color--veneno);
+}
+
+.tipo-volador {
+    background-color: var(--color--volador);
+}
+
+.tipo-dragón {
+    background-color: var(--color--dragon);
+}

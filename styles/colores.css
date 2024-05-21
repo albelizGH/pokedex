@@ -1,0 +1,23 @@
+:root {
+    --color--acero: #6fa0b6;
+    --color--agua: #417ee5;
+    --color--bicho: #94a136;
+    --color--dragon: #515ed7;
+    --color--electrico: #f1c442;
+    --color--fantasma: #653e69;
+    --color--fuego: #d33a31;
+    --color--hada: #df78e8;
+    --color--hielo: #70d6fb;
+    --color--lucha: #ef8832;
+    --color--normal: #a0a1a0;
+    --color--planta: #5aa03b;
+    --color--psiquico: #d46184;
+    --color--roca: #ada984;
+    --color--siniestro: #463a38;
+    --color--tierra: #7f4d24;
+    --color--veneno: #8140b9;
+    --color--volador: #93b9e6;
+    --color--dragón: #0f5ab6;
+
+    --color--fondo: rgb(55 37 37);
+}

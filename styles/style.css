@@ -1,0 +1,51 @@
+@import url(./header.css);
+@import url(./card.css);
+@import url(./card__inicial.css);
+@import url(./card__container.css);
+@import url(./types.css);
+@import url(colores.css);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color: var(--color--fondo)
+}
+
+
+main {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card__container {
+    background-color: rgba(0, 0, 0, 0.766);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.cards__inicial {
+	margin-top: 2rem;
+	gap: 1.5rem;
+	width: 95vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+	.cards__inicial {
+        gap:1.5rem;
+        width: 95vw;
+        grid-template-columns: repeat(auto-fill, 150px);
+	}
+}

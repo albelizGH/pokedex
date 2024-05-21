@@ -1,0 +1,58 @@
+<div class="card">
+	<div class="card__imagen">
+		<div class="card__name__id">
+			<span class="nombre_pokemon">${nombrePokemon}</span> #${id}
+		</div>
+		<div class="imagen">
+			<img src="${imagen}" alt="dream_world" />
+		</div>
+	</div>
+
+	<div class="card__datos">
+		<div class="card__detalles">
+			<div class="tipos" id="tipos_${id}"></div>
+			<div class="estadistica">
+				<p class="estadistica__p">HP:</p>
+				<div class="barra__externa">
+					<div class="barra__interna" id="barra__interna__hp__${id}">
+						<p>${hp}/255</p>
+					</div>
+				</div>
+			</div>
+			<div class="estadistica">
+				<p class="estadistica__p">ATK:</p>
+				<div class="barra__externa">
+					<div class="barra__interna" id="barra__interna__atk__${id}">
+						<p>${atk}/255</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="estadistica">
+				<p class="estadistica__p">DEF:</p>
+				<div class="barra__externa">
+					<div class="barra__interna" id="barra__interna__def__${id}">
+						<p>${def}/255</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="estadistica">
+				<p class="estadistica__p">SPEED:</p>
+				<div class="barra__externa">
+					<div
+						class="barra__interna"
+						id="barra__interna__speed__${id}"
+					>
+						<p>${speed}/255</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="estadistica">
+				<div class="estadistica__interno">${peso} KG</div>
+				<div class="estadistica__interno">${altura} M</div>
+			</div>
+		</div>
+	</div>
+</div>

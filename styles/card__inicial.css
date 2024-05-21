@@ -1,0 +1,79 @@
+@import url(./colores.css);
+:root {
+	--border-radius: 6px;
+	--primary-color: rgba(255, 14, 14, 0.933);
+	--electrico-color: rgb(229, 187, 34);
+}
+
+.card__inicial {
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem;
+	position: relative;
+	cursor: pointer;
+    border-radius: 5px;
+}
+
+.card__inicial hr{
+    width: 70%;
+}
+
+.card__inicial__id {
+	display: flex;
+}
+
+.card__inicial__container{
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius);
+    margin-bottom: 3px;
+}
+
+.card__inicial__imagen__container {
+	object-fit: cover;
+	width: 110px;
+    aspect-ratio: 1/1;
+}
+
+.card__inicial__imagen {
+	width: 100%;
+	height: 100%;
+}
+
+.card__inicial__estadisticas {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card__inicial__tipos {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	column-gap: 0.5rem;
+}
+
+.card__inicial__nombre {
+	width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.card__inicial__tipo {
+	width: 45%;
+	border-radius: 5px;
+	padding: 0.2rem;
+	text-align: center;
+	color: white;
+    font-size: 0.85rem;
+    text-align: center;
+}
